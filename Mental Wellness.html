@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<!-- Coding by CodingLab | www.codinglabweb.com  -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mental Wellness</title>
+
+    <!-- Swiper JS CSS-->
+    <link rel="stylesheet" href="swiper-bundle.min.css">
+
+    <!-- Scroll Reveal -->
+    <link rel="stylesheet" href="scrollreveal.min.js">
+
+    <!-- Boxicons -->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+        
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+<!-- Header -->
+    <header class="header">
+            <nav class="nav container flex">
+                    <a href="#" class="logo-content flex">
+                        <i class='bx bx-coffee logo-icon'></i>
+                        <span class="logo-text">Aakriti</span>
+                    </a>
+
+                    <div class="menu-content">
+                            <ul class="menu-list flex">
+                                    <li><a href="#home" class="nav-link active-navlink">home</a></li>
+                                    <li><a href="#about" class="nav-link">about</a></li>
+                                    
+                                    <li><a href="#review" class="nav-link">review</a></li>
+                            </ul>
+
+                            <div class="media-icons flex">
+                                    <a href="https://www.facebook.com"><i class='bx bxl-facebook'></i></a>
+                                    <a href="https://twitter.com/i/flow/login"><i class='bx bxl-twitter' ></i></a>
+                                    <a href="https://www.instagram.com/accounts/login"><i class='bx bxl-instagram-alt' ></i></a>
+                                    <a href="https://github.com/login"><i class='bx bxl-github'></i></a>
+                                    <a href="https://www.youtube.com/login"><i class='bx bxl-youtube'></i></a>
+                            </div>
+
+                            <i class='bx bx-x navClose-btn'></i>
+                        </div>
+                        
+                        <div class="contact-content flex">
+                            <i class='bx bx-phone phone-icon' ></i>
+                            <span class="phone-number">0022-0303-2030</span>
+                        </div>
+
+                        <i class='bx bx-menu navOpen-btn'></i>
+                </nav>
+        
+    </header>
+
+<!-- Home Section -->
+    <main>
+        <section class="home" id="home">
+                <div class="home-content">
+                        <div class="swiper mySwiper">
+                                <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                                <img src="https://www.socialmodelrecovery.org/wp-content/uploads/2023/01/Mental-Wellness-1-scaled.jpg" alt="" class="home-img">
+
+                                                <div class="home-details">
+                                                        <div class="home-text">
+                                                                <h4 class="homeSubtitle">We really like when you're happy.</h4>
+                                                                <h2 class="homeTitle">Discover Inner Peace</h2>
+                                                        </div>
+
+                                                        <button class="button">Explore</button>
+                                                </div>
+                                        </div>
+
+                                        <div class="swiper-slide">
+                                                <img src="images/homeImg2.jpg" alt="" class="home-img">
+
+                                                <div class="home-details">
+                                                        <div class="home-text">
+                                                                <h4 class="homeSubtitle">Enjoy the finest coffee drinks.</h4>
+                                                                <h2 class="homeTitle">Enjoy Our Exclusive <br> Coffee and Cocktails</h2>
+                                                        </div>
+
+                                                        <button class="button">Explore</button>
+                                                </div>
+                                        </div>
+
+                                        <div class="swiper-slide">
+                                                <img src="images/homeImg3.jpg" alt="" class="home-img">
+
+                                                <div class="home-details">
+                                                        <div class="home-text">
+                                                                <h4 class="homeSubtitle">Making Our coffee with lover.</h4>
+                                                                <h2 class="homeTitle">Alluring and Fragrant <br> Coffee Aroma</h2>
+                                                        </div>
+
+                                                        <button class="button">Explore</button>
+                                                </div>
+                                        </div>
+                                </div>
+
+                                <div class="swiper-button-next swiper-navBtn"></div>
+                                <div class="swiper-button-prev swiper-navBtn"></div>
+                                <div class="swiper-pagination"></div>
+                        </div>
+                </div>
+        </section>
+
+    
+<!-- About Section -->
+        <section class="section about" id="about">
+                <div class="about-content container">
+                        <div class="about-imageContent">
+                                <img src="data:image/png;base64,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" alt="" class="about-img">
+
+                        </div>
+
+                        <div class="about-details">
+                                <div class="about-text">
+                                        <h4 class="content-subtitle"><i></i></h4>
+                                        <h2 class="content-title">About Us</h2>
+                                        <p class="content-description">Introducing Aakrit, a leading mental wellness business based in Delhi Division, DL. We are dedicated to promoting mental well-being and providing effective solutions for individuals seeking a healthier and happier life. With our team of experienced professionals and evidence-based approaches, we offer a range of services tailored to meet the unique needs of each client. Whether it's therapy, counseling, or workshops, Aakrit is committed to helping you navigate life's challenges and achieve a balanced state of mind. Prioritize your mental wellness with Aakrit and unlock your full potential today. 
+                                </p>
+
+                                        <ul class="about-lists flex">
+                                                <li class="about-list">Stress Management</li>
+                                                <li class="about-list dot">.</li>
+                                                <li class="about-list">Depression and Anxiety</li>
+                                                <li class="about-list dot">.</li>
+                                                <li class="about-list">Relationship Management</li>
+                                        </ul>
+                                </div>
+
+                                <div class="about-buttons flex">
+                                        <button class="button">About Us</button>
+                                        <a href="#" class="about-link flex">
+                                                <span class="link-text">see more</span>
+                                                <i class='bx bx-right-arrow-alt about-arrowIcon'></i>
+                                        </a>
+                                </div>
+                        </div>
+
+                </div>
+        </section>
+
+    
+<!-- Menu Section -->
+        <section class="section menu" id="menu">
+            <div class="menu-container container">
+                    <div class="meu-text">
+                            <h4 class="section-subtitle"><i>Our Services</i></h4>
+                            <h2 class="section-title">Our Popular Services</h2>
+                            <p class="section-description">
+                                We offer a range of services, including therapy, counseling, and medication management, all in a comfortable and supportive environment. At Aakrit, we believe that everyone deserves to live a happy and fulfilling life, and we are committed to helping our clients achieve just that.
+                            </p>
+                    </div>
+
+                    <div class="menu-content">
+                            <div class="menu-items">
+                                    <div class="menu-item flex">
+                                            <img src="images/menuImg1.png" alt="" class="menu-img">
+
+                                            <div class="menuItem-details">
+                                                    <h4 class="menuItem-topic">Mindfulness-Based Stress Reduction</h4>
+                                                    <p class="menuItem-des">Learn to manage stress and anxiety with mindfulness techniques. Our MBSR program can help you live a more peaceful life.</p>
+                                            </div>
+
+                                            <div class="menuItem-price flex">
+                                                    <span class="discount-price">$18.99</span>
+                                                    <span class="real-price">$20.66</span>
+                                            </div>
+                                    </div>
+                                    <div class="menu-item flex">
+                                            <img src="images/menuImg1.png" alt="" class="menu-img">
+
+                                            <div class="menuItem-details">
+                                                    <h4 class="menuItem-topic">Cognitive-Behavioral Therapy</h4>
+                                                    <p class="menuItem-des">Our CBT program can help you identify and change negative patterns of thought and behavior, leading to improved mental wellbeing.</p>
+                                            </div>
+
+                                            <div class="menuItem-price flex">
+                                                    <span class="discount-price">$18.99</span>
+                                                    <span class="real-price">$20.66</span>
+                                            </div>
+                                    </div>
+                                    <div class="menu-item flex">
+                                            <img src="images/menuImg1.png" alt="" class="menu-img">
+
+                                            <div class="menuItem-details">
+                                                    <h4 class="menuItem-topic">Art Therapy</h4>
+                                                    <p class="menuItem-des">Explore your emotions, express yourself creatively, and improve your mental health with our art therapy sessions.</p>
+                                            </div>
+
+                                            <div class="menuItem-price flex">
+                                                    <span class="discount-price">$18.99</span>
+                                                    <span class="real-price">$20.66</span>
+                                            </div>
+                                    </div>
+                                    <div class="menu-item flex">
+                                            <img src="images/menuImg1.png" alt="" class="menu-img">
+
+                                            <div class="menuItem-details">
+                                                    <h4 class="menuItem-topic">Relationship Management</h4>
+                                                    <p class="menuItem-des">It is a long established fact that a reader will be distracted by the readable.</p>
+                                            </div>
+
+                                            <div class="menuItem-price flex">
+                                                    <span class="discount-price">$18.99</span>
+                                                    <span class="real-price">$20.66</span>
+                                            </div>
+                                    </div>
+                            </div>
+
+                            <div class="time-table">
+                                    <span class="time-topic">Catogries Time</span>
+
+                                    <ul class="time-lists">
+                                            <li class="time-list flex">
+                                                    <span class="open-day"> Sunday</span>
+                                                    <span class="open-time">Closed</span>
+                                            </li>
+                                            <li class="time-list flex">
+                                                    <span class="open-day"> Monday</span>
+                                                    <span class="open-time">7.00am - 3.00pm</span>
+                                            </li>
+                                            <li class="time-list flex">
+                                                    <span class="open-day"> Tuesday</span>
+                                                    <span class="open-time">7.00am - 3.00pm</span>
+                                            </li>
+                                            <li class="time-list flex">
+                                                    <span class="open-day"> Wednesday</span>
+                                                    <span class="open-time">7.00am - 3.00pm</span>
+                                            </li>
+                                            <li class="time-list flex">
+                                                    <span class="open-day"> Thursday</span>
+                                                    <span class="open-time">7.00am - 3.00pm</span>
+                                            </li>
+                                            <li class="time-list flex">
+                                                    <span class="open-day"> Friday</span>
+                                                    <span class="open-time">7.00am - 3.00pm</span>
+                                            </li>
+                                            <li class="time-list flex">
+                                                    <span class="open-day"> Saturday</span>
+                                                    <span class="open-time">9.00am - 2.00pm</span>
+                                            </li>
+                                    </ul>
+                            </div>
+                    </div>
+            </div>
+        </section>
+
+    
+<!-- Brand Section -->
+        <section class="section brand">
+            <div class="brand-container container">
+                    <h4 class="section-subtitle"><i>Our Trusted Brand</i></h4>
+
+                    <div class="brand-images">
+                            <div class="brand-image">
+                                    <img src="images/brandImg1.png" alt="" class="brand-img">
+                            </div>
+                            <div class="brand-image">
+                                    <img src="images/brandImg2.png" alt="" class="brand-img">
+                            </div>
+                            <div class="brand-image">
+                                    <img src="images/brandImg3.png" alt="" class="brand-img">
+                            </div>
+                            <div class="brand-image">
+                                    <img src="images/brandImg4.png" alt="" class="brand-img">
+                            </div>
+                            <div class="brand-image">
+                                    <img src="images/brandImg5.png" alt="" class="brand-img">
+                            </div>
+                    </div>
+            </div>
+        </section>
+
+    
+<!-- Reviews Section -->
+        <section class="section review" id="review">
+            <div class="review-container container">
+                    <div class="review-text">
+                            <h4 class="section-subtitle"><i>Reviews</i></h4>
+                            <h2 class="section-title">What Clients Says</h2>
+                            <p class="section-description">Some reviews that customer said about coffee services and business Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt magnam totam repellat, labore commodi exercitationem!</p>
+                    </div>
+
+                    <div class="tesitmonial swiper mySwiper">
+                            <div class="swiper-wrapper">
+                                    <div class="testi-content swiper-slide flex">
+                                            <img src="images/profileImg2.jpg" alt="" class="review-img">
+                                            <p class="review-quote">Your coffee hits the spot every time. Thank you for the experience of pure, delicious coffee masterfully roasted! I will never purchase any other and I will spread the word!</p>
+                                            <i class='bx bxs-quote-alt-left quote-icon'></i>
+
+                                            <div class="testi-personDetails flex">
+                                                    <span class="name">Marnie Rotter</span>
+                                                    <span class="job">App Developer</span>
+                                            </div>
+                                    </div>
+                                    <div class="testi-content swiper-slide flex">
+                                            <img src="images/profileImg1.jpg" alt="" class="review-img">
+                                            <p class="review-quote">Your coffee hits the spot every time. Thank you for the experience of pure, delicious coffee masterfully roasted! I will never purchase any other and I will spread the word!</p>
+                                            <i class='bx bxs-quote-alt-left quote-icon'></i>
+
+                                            <div class="testi-personDetails flex">
+                                                    <span class="name">Marnie Rotter</span>
+                                                    <span class="job">App Developer</span>
+                                            </div>
+                                    </div>
+                                    <div class="testi-content swiper-slide flex">
+                                            <img src="images/profileImg3.jpg" alt="" class="review-img">
+                                            <p class="review-quote">Your coffee hits the spot every time. Thank you for the experience of pure, delicious coffee masterfully roasted! I will never purchase any other and I will spread the word!</p>
+                                            <i class='bx bxs-quote-alt-left quote-icon'></i>
+
+                                            <div class="testi-personDetails flex">
+                                                    <span class="name">Marnie Rotter</span>
+                                                    <span class="job">App Developer</span>
+                                            </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-button-next swiper-navBtn"></div>
+                                <div class="swiper-button-prev swiper-navBtn"></div>
+                                <div class="swiper-pagination"></div>
+                    </div>
+            </div>
+        </section>
+
+    
+<!-- Newsletter Section -->
+        <section class="section newsletter">
+            <div class="newletter-container container">
+                <a href="#" class="logo-content flex">
+                        <i class='bx bx-coffee logo-icon'></i>
+                        <span class="logo-text">Coffee.</span>
+                    </a>
+
+                    <p class="section-description">This is the perfect place to find a nice and cozy spot to sip some. You'll find the Java Jungle, Coffee Bean and more shops right in this website.</p>
+
+                    <div class="newsletter-inputBox">
+                            <input type="email" placeholder="emai@example.com" class="newletter-input">
+                            <button class="button newsletter-button">Subscribe</button>
+                    </div>
+
+                    <div class="newsletter media-icons flex">
+                        <a href="https://www.facebook.com"><i class='bx bxl-facebook'></i></a>
+                        <a href="https://twitter.com/i/flow/login"><i class='bx bxl-twitter' ></i></a>
+                        <a href="https://www.instagram.com/accounts/login"><i class='bx bxl-instagram-alt' ></i></a>
+                        <a href="https://github.com/login"><i class='bx bxl-github'></i></a>
+                        <a href="https://www.youtube.com/login"><i class='bx bxl-youtube'></i></a>
+                </div>
+            </div>
+        </section>
+        
+    
+<!-- Footer Section -->
+        <footer class="section footer">
+            <div class="footer-container container">
+                    <div class="footer-content">
+                        <a href="#" class="logo-content flex">
+                                <i class='bx bx-coffee logo-icon'></i>
+                                <span class="logo-text">Coffee.</span>
+                            </a>
+
+                            <p class="content-description">Coffee is a cafe that serve many variant of coffee and other dishes with very comfortable place.</p>
+
+                            <div class="footer-location flex">
+                                <i class='bx bx-map map-icon'></i>
+                                
+                                <div class="location-text">
+                                        USA Californa 65 South Fifth St.Sicklerville, NJ 08081
+                                </div>
+                            </div>
+                    </div>
+
+                    <div class="footer-linkContent">
+                            <ul class="footer-links">
+                                    <h4 class="footerLinks-title">Facility</h4>
+
+                                    <li><a href="#" class="footer-link">Private Room</a></li>
+                                    <li><a href="#" class="footer-link">Meeting Room</a></li>
+                                    <li><a href="#" class="footer-link">Event Room</a></li>
+                                    <li><a href="#" class="footer-link">Creative Studio</a></li>
+                                    <li><a href="#" class="footer-link">Custom Room</a></li>
+                            </ul>
+                            <ul class="footer-links">
+                                    <h4 class="footerLinks-title">Facility</h4>
+
+                                    <li><a href="#" class="footer-link">Coffee</a></li>
+                                    <li><a href="#" class="footer-link">Beverages</a></li>
+                                    <li><a href="#" class="footer-link">Dishes</a></li>
+                            </ul>
+                            <ul class="footer-links">
+                                    <h4 class="footerLinks-title">Support</h4>
+
+                                    <li><a href="#" class="footer-link">About Us</a></li>
+                                    <li><a href="#" class="footer-link">FAQs</a></li>
+                                    <li><a href="#" class="footer-link">Private Policy</a></li>
+                                    <li><a href="#" class="footer-link">Help Us</a></li>
+                            </ul>
+                    </div>
+            </div>
+            <div class="footer-copyRight">&#169; Team B-Well. All rigths reserved</div>
+        </footer>
+
+<!-- Scroll Up -->
+        <a href="#home" class="scrollUp-btn flex">
+                <i class='bx bx-up-arrow-alt scrollUp-icon'></i>
+        </a>
+
+</main>
+
+<!-- Swiper JS -->
+<script src="js/swiper-bundle.min.js"></script>
+
+<!-- Scroll Reveal -->
+<script src="js/scrollreveal.js"></script>
+
+<!-- JavaScript -->
+    <script src="js/script.js"></script>
+</body>
+</html>
